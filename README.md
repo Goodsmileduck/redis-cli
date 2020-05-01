@@ -28,6 +28,6 @@ docker run --name redis-cli --it goodsmileduck/redis-cli
 You can customize the launch command of Redis server by specifying arguments to `redis-cli` on the `docker run` command. For example the following command will ping to `hostname` with port `6379` and will delete container after finish:
 
 ```bash
-docker run --rm --name redis-cli --it goodsmileduck/redis-cli -h hostname -p 6379 ping
+docker run --rm --name redis-cli --it goodsmileduck/redis-cli redis-cli -h hostname -p 6379 ping
 ```
 
