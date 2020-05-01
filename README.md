@@ -20,7 +20,7 @@ docker build -t goodsmileduck/redis-cli github.com/goodsmileduck/redis-cli
 Try connect redis-cli to localhost with default port :
 
 ```bash
-docker run --name redis-cli --it goodsmileduck/redis-cli
+docker run --name redis-cli -it goodsmileduck/redis-cli
 ```
 
 ## Command-line arguments
