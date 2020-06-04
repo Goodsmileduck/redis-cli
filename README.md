@@ -9,10 +9,10 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 docker pull goodsmileduck/redis-cli:latest
 ```
 
-Alternatively you can build the image yourself.
+Alternatively you can build the image yourself and specify desired [Redis version](http://download.redis.io/releases/).
 
 ```bash
-docker build -t goodsmileduck/redis-cli github.com/goodsmileduck/redis-cli
+docker build -t goodsmileduck/redis-cli github.com/goodsmileduck/redis-cli --build-arg REDIS_VERSION=6.0.4
 ```
 
 ## Quickstart
