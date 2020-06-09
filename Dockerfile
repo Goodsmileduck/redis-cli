@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Stanislav Serebrennikov <goodsmileduck@gmail.com>
 
-ARG REDIS_VERSION="4.0.14"
+ARG REDIS_VERSION="3.2.13"
 ARG REDIS_DOWNLOAD_URL="http://download.redis.io/releases/redis-${REDIS_VERSION}.tar.gz"
 
 RUN apk update && apk upgrade \
